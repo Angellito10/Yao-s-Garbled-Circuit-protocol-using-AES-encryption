@@ -1,6 +1,6 @@
 # **Project Overview**
 
-This project implements Yao's Garbled Circuit protocol using AES encryption to securely compute the maximum value between two sets of 4-bit integers. It extends the initial implementation by Olivier Roques and Emmanuelle Risson [GitHub Repository: Yao's Garbled Circuit Protocol](https://github.com/ojroques/garbled-circuit) , ensuring secure communication and computation between two parties, Alice and Bob.
+This project implements Yao's Garbled Circuit protocol using AES encryption to securely compute the maximum value between two sets of 4-bit integers. It extends the initial implementation by Olivier Roques and Emmanuelle Risson [Yao's Garbled Circuit Protocol](https://github.com/ojroques/garbled-circuit), ensuring secure communication and computation between two parties, Alice and Bob.
 
 ## **Objective**
 
