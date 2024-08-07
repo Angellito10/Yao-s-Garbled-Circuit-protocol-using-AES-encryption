@@ -86,6 +86,16 @@ The comparator evaluates bits from Most Significant Bit (MSB) to Least Significa
 
 #### **Package Installation**
 
+- Install dependencies using virtual environment:
+    
+  ```sh
+    python3 -m venv path/to/venv
+    source path/to/venv/bin/activate
+    python3 -m pip install -r requirements.txt
+  ```
+  
+## OR
+
 - Install dependencies using pip:
   ```sh
   pip install -r requirements.txt
@@ -99,12 +109,14 @@ The comparator evaluates bits from Most Significant Bit (MSB) to Least Significa
 2. **Run Bob's Instance:**
     - In one terminal, navigate to the project directory and run:
       ```sh
-      python3 main.py bob -i inputs/bob.txt
+      cd src/
+      python3 amain.py bob -i inputs/bob.txt
       ```
 
 3. **Run Alice's Instance:**
     - In the other terminal, navigate to the project directory and run:
       ```sh
+      cd src/
       python3 main.py alice -i inputs/alice.txt
       ```
 
