@@ -1,7 +1,3 @@
-Here's a more stylish and well-structured version of your markdown for the GitHub repository:
-
----
-
 # **Project Overview**
 
 This project implements Yao's Garbled Circuit protocol using AES encryption to securely compute the maximum value between two sets of 4-bit integers. It extends the initial implementation by Olivier Roques and Emmanuelle Risson, ensuring secure communication and computation between two parties, Alice and Bob.
